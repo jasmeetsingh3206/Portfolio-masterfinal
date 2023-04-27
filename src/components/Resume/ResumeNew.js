@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
@@ -12,15 +12,16 @@ const resumeLink =
   "https://raw.githubusercontent.com/jasmeetsingh3206/portfolio-masterfinal/master/src/Assets/JasmeetResume.pdf";
 
 function ResumeNew() {
-  const [width, setWidth] = useState(600);
+  // const [width, setWidth] = useState(600);
 
-  useEffect(() => {
-    setWidth(window.innerWidth);
-    // console.log(`the width is ${this.width}`)
-    console.log('width is '+window.innerWidth)
-    console.log('setwidth is '+width)
+  const width= window.innerWidth;
+  // useEffect(() => {
+  //   setWidth(window.innerWidth);
+  //   // console.log(`the width is ${this.width}`)
+  //   console.log('width is '+window.innerWidth)
+  //   console.log('setwidth is '+width)
     
-  }, []);
+  // }, []);
 
   return (
     <div>
@@ -59,5 +60,6 @@ function ResumeNew() {
     </div>
   );
 }
+
 
 export default ResumeNew;
