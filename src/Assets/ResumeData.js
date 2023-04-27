@@ -7,5 +7,10 @@ export const user= {
         linkedin:"https://www.linkedin.com/in/jasmeet-singh-sethi-67a01b17b",
         twitter:"https://twitter.com/Se5Singh?t=C6e3J5mQk2Qe7jrIIc4IUQ&s=35"
     },
-    email: "jasmeetsingh3206@gmail.com"
+    email: "jasmeetsingh3206@gmail.com",
+    college: "YMCA, Faridabad",
+    stream: "ECE",
+    cource: "B.tech",
+    hobbies: ['Running', 'Sleeping', 'Travelling', 'Reading']
+
   }

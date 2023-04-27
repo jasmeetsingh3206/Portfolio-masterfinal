@@ -3,21 +3,24 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillInstagram, AiFillHeart
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import {user} from "../../src/Assets/ResumeData"
+import { user } from "../../src/Assets/ResumeData"
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-          {/* <h3>Designed and Developed by Soumyajit Behera</h3> */}
+      <Col md="4" className="footer-copywright">
+          
+
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} JS</h3>
+          <h3>Let's build something great together <AiFillHeart class="fa fa-heart fa-4x fa-beat" /></h3>
+          
+
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -25,7 +28,7 @@ function Footer() {
               <a
                 href={user.socials.github}
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -35,7 +38,7 @@ function Footer() {
               <a
                 href={user.socials.twitter}
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -45,7 +48,7 @@ function Footer() {
               <a
                 href={user.socials.linkedin}
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -55,7 +58,7 @@ function Footer() {
               <a
                 href={user.socials.insta}
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
