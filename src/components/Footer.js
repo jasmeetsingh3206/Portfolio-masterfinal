@@ -18,7 +18,7 @@ function Footer() {
 
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Let's build something great together <AiFillHeart class="fa fa-heart fa-4x fa-beat" /></h3>
+          <h3>© {year}, Let's build something great together <AiFillHeart class="fa fa-heart fa-4x fa-beat" /></h3>
           
 
         </Col>
