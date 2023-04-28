@@ -296,6 +296,9 @@ button:focus {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
   }
+  .home-content {
+    padding: 1rem 0 2rem !important;
+  }
 }
 
 .home-about-section {
