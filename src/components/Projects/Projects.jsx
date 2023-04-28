@@ -13,11 +13,11 @@ import Particle from "../Particle";
 // import suicide from "../../Assets/Projects/suicide.png";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
 import NewCard from "./newProjectCard";
-import "../../tailwindinc.scss"
 function Projects() {
   return (
     
     <Container fluid className="project-section">
+    <Particle  />
      
       <Container>
         <h1 className="project-heading">
@@ -91,7 +91,7 @@ function Projects() {
             />
           </Col> */}
         </Row>
-      </Container> <Particle />
+      </Container> 
     </Container> 
    
   );
