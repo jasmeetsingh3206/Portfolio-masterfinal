@@ -13,7 +13,7 @@ return (
         <p style={{ textAlign: "justify" }}>
           Hi Everyone, I am <span className="purple">{user.fname} {user.lname} </span>
           from <span className="purple"> Gurgaon, India.</span>
-          <br />I am a senior pursuing {user.cource} in {user.stream} from t{user.college}.
+          <br />I am a senior pursuing {user.cource} in {user.stream} from {user.college}.
           <br />
           <br />
           Apart from coding, some other activities that I love to do!
