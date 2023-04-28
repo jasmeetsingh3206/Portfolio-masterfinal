@@ -13,8 +13,8 @@ import {
   Navigate
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
-import "./style.css";
-import "./App.css";
+import "./style.scss";
+import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
