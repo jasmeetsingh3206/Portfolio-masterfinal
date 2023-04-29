@@ -17,32 +17,32 @@ export const user= {
         title: "Service Dashboard",
         desc:"Consumer facing web dashboard on VUE.js, with ablity to filter jobs on basis of branch, client and site, displaying interactive charts and pointers on a live map. Linking it with existing .NET services via an API",
         tech:["Vue.js", "Pinia", "Axios", "Postgres", "Tailwind", "Leaflet", "Typescript"],
-        demolink: "https://www.google.com/",
-        githublink: "https://www.google.com/"
+        demolink: "https://jobdashboard3206.netlify.app/",
+        githublink: "https://github.com/jasmeetsingh3206/WebDashboard-2.0"
     },
     {
         id:2,
         title: "EMS Portal",
         desc:"Employe management portal with activity logs, employee status, leaves management, a dashboard to view other employees of the organisation and their statuses.  ",
         tech:["Vue.js", "Bootstrap", "Axios", "Web api", "Tailwind", "Jwt"],
-        demolink: "",
-        githublink: ""
+        demolink: "https://fantastic-pixie-0d8d92.netlify.app",
+        githublink: "https://github.com/jasmeetsingh3206/hellovue"
     },
     {
         id:3,
         title: "Movie recommender system",
-        desc:" ",
+        desc:"A live content-based movie recommender system that utilizes the TMDB 5000 MOVIE DATASET to match inputted movie names with its database. The system uses cosine similarity to determine the 10 most similar movies to recommend to the user.",
         tech:["Python", "Pandas", "Numpy", "Streamlit", "Coscine similarity"],
-        demolink: "",
-        githublink: ""
+        demolink: "https://pingpongg.netlify.app/",
+        githublink: "https://github.com/jasmeetsingh3206/MovieRecommender"
     },
     {
         id:4,
         title: "Smart health monitoring system",
-        desc:" ",
+        desc:"A sensor-based machine that calculates a person's Height, Weight, Temperature, Heart rate, BMI, and SpO2 using an 8- foot wooden frame and an ESP8266 MCU. The collected data is uploaded to the cloud in real-time and displayed on a web dashboard, providing users with instant access to their health metrics.",
         tech:["C++", "NodeMCU", "Iot", "Arduino", "Electronic sensors", "Thingsboard.io"],
-        demolink: "",
-        githublink: ""
+        demolink: "https://demo.thingsboard.io/dashboard/71f6d200-18bd-11ed-9418-cd0267d90036?publicId=b03ac070-0bd6-11ec-9fa1-17067ddb76a8",
+        githublink: "https://github.com/jasmeetsingh3206/SmartHealth"
     }]
 
   }

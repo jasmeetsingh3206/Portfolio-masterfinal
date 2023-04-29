@@ -14,7 +14,7 @@ export default function NewCard(props) {
         
     };
     return (
-        <div className="flex flex-col justify-between w-full h-full rounded-lg  bg-slate-200 border border-gray-200 shadow  hover:shadow">
+        <div className="flex flex-col justify-between w-full md:h-full rounded-lg  bg-slate-200 border border-gray-200 shadow  hover:shadow">
             <img className="object-cover w-full rounded-t-lg h-96 md:h-auto  md:rounded-l-lg" src="https://cdn.dribbble.com/users/375995/screenshots/6451756/goldencanongrid.png" alt="projectImage" />
             <div className="flex flex-col justify-between p-4 leading-normal">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">{props.project.title}</h5>
