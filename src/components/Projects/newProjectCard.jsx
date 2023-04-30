@@ -15,8 +15,8 @@ export default function NewCard(props) {
     };
     return (
         <div className="flex flex-col justify-between w-full md:h-full rounded-lg  bg-slate-200   shadow  hover:shadow">
-            <div className="p-3 pt-4 bg-gradient-to-b from-purple-400 to-slate-200 rounded-lg">
-                <img className="object-contain w-full rounded-t-lg h-80 md:h-auto  md:rounded-t-lg" src={props.project.imgsrc} alt="projectImage" />
+            <div className="lg:p-3 lg:pt-4 p-1  bg-gradient-to-b from-purple-400 to-slate-200 rounded-lg">
+                <img className="object-contain w-full rounded-t-lg " src={props.project.imgsrc} alt="projectImage" />
             </div>
             <div className="flex flex-col justify-between p-4 leading-normal">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">{props.project.title}</h5>
