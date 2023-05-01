@@ -591,7 +591,14 @@ button:focus {
   display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
-  transition: all 0.4s ease 0s !important;
+  transition: all 0.2s ease-in-out 0s !important;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  &:hover {
+    overflow: hidden !important;
+    border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -600,11 +607,7 @@ button:focus {
   }
 }
 
-.tech-icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
-}
+
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;

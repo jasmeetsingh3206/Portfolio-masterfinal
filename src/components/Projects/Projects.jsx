@@ -30,7 +30,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {
             user.projects.map((project) => (
-              <Col md={4} className="project-card">
+              <Col md={6} lg={4} className="project-card">
                 <NewCard project= {project}/>
               </Col>
             ))
