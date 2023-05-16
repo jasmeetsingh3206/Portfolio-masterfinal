@@ -12,7 +12,17 @@ export const user= {
     stream: "ECE",
     cource: "B.tech",
     hobbies: ['Running', 'Sleeping', 'Travelling', 'Reading'],
-    projects:[{
+    projects:[
+        {
+            id:5,
+            title: "Paddle Prodigy",
+            desc:"A thrilling multiplayer ping pong game using Vue.js for the frontend and Node.js with Express for the backend. Using WebSockets enables real-time, synchronized gameplay over the internet. With a responsive design and intuitive controls, players can enjoy an immersive gaming experience, competing against each other regardless of their locations.",
+            tech:["Web Sockets", "Node.js", "Express", "Vue.js"],
+            demolink: "https://paddleprodigy.netlify.app/#/",
+            githublink: "https://github.com/jasmeetsingh3206/finallygamedone",
+            imgsrc: "https://i.ibb.co/KF0G5H4/Screenshot-2023-05-16-at-21-58-11.jpg"
+        },
+        {
         id:1,
         title: "Service Dashboard",
         desc:"Consumer facing web dashboard on VUE.js, with ablity to filter jobs on basis of branch, client and site, displaying interactive charts and pointers on a live map. Linking it with existing .NET services via an API",
