@@ -16,7 +16,7 @@ export const user= {
         {
             id:6,
             title: "ColLab.ai",
-            desc:"A thrilling multiplayer ping pong game using Vue.js for the frontend and Node.js with Express for the backend. Using WebSockets enables real-time, synchronized gameplay and voice chatting over the internet. With a responsive design and intuitive controls, players can enjoy an immersive gaming experience, competing against each other regardless of their locations.",
+            desc:"An opensource AI prompting tool, where users can share their creative ai prompts with the world. Uses Next.js 13 as the framework, MongoDb as the database, full CRUD operations supported with customised user profile and home screen. Hosted on vercel",
             tech:["Ongoing","Next.js", "O-Auth", "MongoDB", "Typescript"],
             demolink: "https://collab-ai.vercel.app/",
             githublink: "https://github.com/jasmeetsingh3206",
