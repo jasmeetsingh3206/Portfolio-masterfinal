@@ -14,6 +14,15 @@ export const user= {
     hobbies: ['Running', 'Sleeping', 'Travelling', 'Reading'],
     projects:[
         {
+            id:6,
+            title: "ColLab.ai",
+            desc:"A thrilling multiplayer ping pong game using Vue.js for the frontend and Node.js with Express for the backend. Using WebSockets enables real-time, synchronized gameplay and voice chatting over the internet. With a responsive design and intuitive controls, players can enjoy an immersive gaming experience, competing against each other regardless of their locations.",
+            tech:["Ongoing","Next.js", "O-Auth", "MongoDB", "Typescript"],
+            demolink: "https://collab-ai.vercel.app/",
+            githublink: "https://github.com/jasmeetsingh3206",
+            imgsrc: "https://i.ibb.co/F5KBbqC/Fin.png"
+        },
+        {
             id:5,
             title: "Paddle Prodigy",
             desc:"A thrilling multiplayer ping pong game using Vue.js for the frontend and Node.js with Express for the backend. Using WebSockets enables real-time, synchronized gameplay and voice chatting over the internet. With a responsive design and intuitive controls, players can enjoy an immersive gaming experience, competing against each other regardless of their locations.",
